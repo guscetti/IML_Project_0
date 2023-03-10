@@ -24,6 +24,6 @@ phi_test = np.array([test.loc[i][1:11] for i in range(len(test))])
 y_predicted = (np.dot(phi_test, w_hat)).transpose()
 print(y_predicted)
 
-df = pd.DataFrame({'id': [int(test.loc[i][0]) for i in range(len(test))],
+df = pd.DataFrame({'Id': [int(test.loc[i][0]) for i in range(len(test))],
                    'y': y_predicted})
 df.to_csv('consignement.csv', index=False)

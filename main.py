@@ -1,12 +1,7 @@
 import numpy as np
+import pandas as pd
 
-a = np.array([1,2,3])
+train = pd.read_csv(r'C:\Users\Josepp\PycharmProjects\IML_Project_0\sample.csv\train.csv')
 
 
-print("huso")
 
-print('primus')
-
-print('hallovelo')
-
-print(a)
